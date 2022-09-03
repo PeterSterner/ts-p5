@@ -4,5 +4,6 @@ declare global {
   interface Window {
     draw: () => void;
     setup: () => void;
+    mousePressed: () => void;
   }
 }
