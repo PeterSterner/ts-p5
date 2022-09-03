@@ -1,5 +1,6 @@
 # Opsætning af projekt
 
+- Install
 - Installér node.js [https://nodejs.org/en/](https://nodejs.org/en/).
 - Installér typescript:
     ```
