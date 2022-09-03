@@ -1,6 +1,6 @@
 # Opsætning af projekt
 
-- Install
+- Installér Visual Studio Code.
 - Installér node.js [https://nodejs.org/en/](https://nodejs.org/en/).
 - Installér typescript:
     ```
