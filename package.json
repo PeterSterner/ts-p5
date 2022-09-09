@@ -1,7 +1,8 @@
 {
   "main": "index.html",
   "scripts": {
-    "start": "parcel index.html --open"
+    "start": "parcel index.html --open",
+    "console": "nodemon ./src/console.ts"
   },
   "dependencies": {
     "@types/p5": "^1.4.2",

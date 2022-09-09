@@ -6,4 +6,4 @@ function sumOfNumbers(n: number): number {
   return s;
 }
 
-console.log(sumOfNumbers(10));
+export {sumOfNumbers}
