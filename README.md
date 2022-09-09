@@ -11,7 +11,8 @@ Dette projekt har til formål at få p5.js til at fungere sammen med typescript.
 - Klon projektet. Det kan gøres på en af følgende måder:
 
   1. Fra kommando-paletten i Visual Studio Code vælges `Git: Clone`.
-  2. Fra en terminal køres kommandoen: `git clone https://github.com/petey33/vscode-ts-javascript-setup`.  
+  2. Fra en terminal køres kommandoen: 
+     ```git clone https://github.com/petey33/vscode-ts-javascript-setup```  
 
 - Installér projektets afhængigheder (enten fra kommando-paletten med `Run task` eller fra en terminal):
   ```
