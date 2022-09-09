@@ -1,7 +1,7 @@
 {
   "main": "index.html",
   "scripts": {
-    "start": "parcel index.html --open",
+    "sketch": "parcel index.html --open",
     "console": "nodemon ./src/console.ts"
   },
   "dependencies": {
