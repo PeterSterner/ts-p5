@@ -14,9 +14,12 @@ Dette projekt har til formål at få p5.js til at fungere sammen med typescript.
   ```
   npm install
   ```
-- Kør kommandoen:
+- Kør følgende script for at vise en p5-sketch:
   ```
-  npm start
+  npm sketch
   ```
-  Hermed afvikles kommandoen `parcel index.html --open` (jf. `package.json`).
--
+  Kommandoen `parcel index.html --open` køres (jf. `package.json`) og p5-sketch fra `sketch.ts` vises.
+- Hvis man ønsker en simpel console-applikation (dvs. en applikation, der kun giver output i terminal) kan følgende script køres:
+  ```
+  npm console
+  ```
