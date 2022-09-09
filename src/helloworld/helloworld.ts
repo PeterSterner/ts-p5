@@ -1,9 +1,5 @@
-/*
-Et eksempel på typescript uden brug af p5.
-*/
-
-function helloWorld(name: string): void {
-  console.log("From " + name + ": Hello world!");
+function sayHello(name: string): void {
+  console.log("Hello", name);
 }
 
-helloWorld("Peter");
+sayHello("Peter");
