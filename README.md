@@ -1,7 +1,6 @@
 # Formål
+
 Dette projekt har til formål at få p5.js til at fungere sammen med typescript.
-
-
 
 # Opsætning
 
@@ -12,10 +11,12 @@ Dette projekt har til formål at få p5.js til at fungere sammen med typescript.
 - Kør kommandoen `Git: Clone` og klon dette projekt.
 - Start en terminal.
 - Installér projektets afhængigheder:
-    ```
-    npm install
-    ```
+  ```
+  npm install
+  ```
 - Kør kommandoen:
-    ```
-    npm start
-    ```
+  ```
+  npm start
+  ```
+  Hermed afvikles kommandoen `parcel index.html --open` (jf. `package.json`).
+-
