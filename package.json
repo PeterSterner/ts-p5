@@ -1,5 +1,9 @@
 {
   "main": "index.html",
+  "staticFiles": {
+    "staticPath": "./src/assets",
+    "watcherGlob": "**"
+  },
   "scripts": {
     "sketch": "parcel ./src/index.html --open",
     "console": "nodemon ./src/console.ts"
@@ -11,6 +15,7 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.19",
+    "parcel-plugin-static-files-copy": "^2.6.0",
     "ts-node": "^10.9.1",
     "typescript": "^4.8.2"
   }

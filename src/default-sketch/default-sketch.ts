@@ -5,6 +5,7 @@ let img: Image;
 
 function preload() {
   console.log("preload");
+  img = loadImage("eksplosion.png");
 }
 
 function setup() {
@@ -14,6 +15,7 @@ function setup() {
 function draw() {
   background(220);
   circle(windowWidth / 2, windowHeight / 2, 50);
+  image(img, 0, 0);
 }
 
 function mousePressed() {
@@ -21,7 +23,7 @@ function mousePressed() {
 }
 
 function keyPressed() {
-  console.log("You pressed a key!");
+  console.log("You pressed this key: ", key);
 }
 
 export { preload, setup, draw, mousePressed, keyPressed };
