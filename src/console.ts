@@ -1,4 +1,6 @@
 import { sumOfNumbers } from "./sum-of-numbers/sum-of-numbers";
+import { sayHello } from "./helloworld/helloworld";
 
 console.clear();
-console.log("Sum of 1...10: ", sumOfNumbers(10));
+sayHello("Peter");
+console.log("Computing the sum of 1+2+...+100: ", sumOfNumbers(100));

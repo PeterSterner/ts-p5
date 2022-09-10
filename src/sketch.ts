@@ -1,6 +1,6 @@
 import "p5";
 
-import { setup, draw, mousePressed } from "./eksplosion/eksplosion";
+import { setup, draw, mousePressed } from "./explosion/eksplosion";
 
 window.setup = setup;
 window.draw = draw;
