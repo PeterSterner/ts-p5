@@ -4,7 +4,6 @@ import { Image } from "p5";
 let img: Image;
 
 function preload() {
-  loadImage("smiley.png");
   console.log("preload");
 }
 
@@ -14,7 +13,6 @@ function setup() {
 
 function draw() {
   background(220);
-  //image(img, 0, 0);
   circle(windowWidth / 2, windowHeight / 2, 50);
 }
 
