@@ -5,5 +5,7 @@ declare global {
     draw: () => void;
     setup: () => void;
     mousePressed: () => void;
+    preload: () => void;
+    keyPressed: () => void;
   }
 }
