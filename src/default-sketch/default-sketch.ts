@@ -5,7 +5,7 @@ let img: Image;
 
 function preload() {
   console.log("preload");
-  img = loadImage("eksplosion.png");
+  img = loadImage("explosion.png");
 }
 
 function setup() {
