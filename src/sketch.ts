@@ -1,16 +1,17 @@
 import "p5";
 
-//import { setup, draw, mousePressed } from "./explosion/eksplosion";
+import { setup, draw, mousePressed } from "./explosion/eksplosion";
 
-import {
+/* import {
   preload,
   setup,
   draw,
   mousePressed,
   keyPressed,
 } from "./default-sketch/default-sketch";
+ */
 
-window.preload = preload;
+//window.preload = preload;
 window.setup = setup;
 window.draw = draw;
 window.mousePressed = mousePressed;
