@@ -31,6 +31,8 @@ class Cirkel {
   }
 }
 
+function preload() {}
+
 function setup() {
   createCanvas(windowWidth, windowHeight);
 
@@ -58,4 +60,4 @@ function mousePressed() {
   runSimulation = !runSimulation;
 }
 
-export { setup, draw, mousePressed };
+export { preload, setup, draw, mousePressed };
