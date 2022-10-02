@@ -1,5 +1,5 @@
 import "p5";
-
+/*
 import {
   preload,
   setup,
@@ -7,6 +7,13 @@ import {
   mousePressed,
   keyPressed,
 } from "./explosion/eksplosion";
+*/
+
+import {
+  setup,
+  draw,
+  preload
+} from "./js-sketch/sketch.js"
 
 /*
 import {
