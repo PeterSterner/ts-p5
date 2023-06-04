@@ -1,5 +1,5 @@
-import { sumOfNumbers } from "./sum-of-numbers/sum-of-numbers";
-import { sayHello } from "./helloworld/helloworld";
+import { sumOfNumbers } from "./sum-of-numbers";
+import { sayHello } from "./helloworld";
 
 console.clear();
 sayHello("Peter");
